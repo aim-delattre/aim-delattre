@@ -576,7 +576,7 @@
 		background: transparent;
 		border: solid 2px rgba(0, 0, 0, 0.34);
 		border-radius: 0.25rem;
-		color: inherit;
+		color: #000;
 		display: block;
 		outline: 0;
 		padding: 0 0.75rem;
@@ -699,7 +699,6 @@
 	}
 
 		.image.filtered:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -716,7 +715,6 @@
 		}
 
 		.image.filtered.tinted:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
 			background-size: 128px 128px, auto, auto;
 		}
 
@@ -3259,7 +3257,7 @@
 		flex-shrink: 1;
 		height: 100%;
 		padding: 5rem;
-		background-color: #00eebb;
+		background-color: #f4f4f4;
 	}
 
 		@media screen and (orientation: portrait) {
